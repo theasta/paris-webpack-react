@@ -1,5 +1,12 @@
 # Paris - Sample Application build with React and Webpack
 
+## Installation
+
+```
+https://github.com/theasta/paris-webpack-react.git
+cd paris-webpack-react
+npm install
+```
 
 ## Demos
 
@@ -73,3 +80,10 @@ Exit the npm task
 
 1. `npm run webpack-dev-server`
 2. `node server/server-dev-server.js`
+3. Go to http://localhost:3000
+4. Open homepage.jsx, replace "Best of Paris" by "Best of Paname". Save the file. 
+On save, the browser reloads automatically the homepage and your change is applied.
+5. Go to http://localhost:3000/app
+6. Open AttractionListItem.jsx and replace "<h4>{this.props.attraction.name}</h4>" by "<h4>Visit {this.props.attraction.name}</h4>". 
+This time, on save, your change is reflected right away without a page reload.
+7. It also works with any file that is required with Webpack. Make a change to AttractionListItem.css and it will be applied right away too.
