@@ -1,0 +1,28 @@
+.thumbnail {
+  min-width: 260px;
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 250px;
+  height: 250px;
+}
+
+.list-inline {
+  margin: 0;
+}
+
+.list-inline > li {
+  padding-right: 26px;
+}
+
+h4 {
+  width: 100%;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+a.thumbnail:link, a.thumbnail:visited, a.thumbnail:hover, a.thumbnail:active {
+  color: #5e5e5e;
+  text-decoration: none;
+}

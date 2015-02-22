@@ -1,0 +1,8 @@
+.jumbotron {
+  font-size: 36px;
+  color: white;
+  background-size: cover;
+  background: url('images/background.jpg') no-repeat;
+  text-align : center;
+  text-shadow: 1px 1px 1px #000;
+}

@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+dist
+node_modules
+server/cloud
+server/dist
+server/assets.json
+stats.json

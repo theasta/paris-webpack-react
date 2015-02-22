@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  color: #999;
+  border-top: solid 1px #ddd;
+}
+
+.footer > p {
+  margin-bottom: 2px;
+}
+
