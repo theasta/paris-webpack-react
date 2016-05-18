@@ -14,7 +14,7 @@ npm install
 
 
 1. Build and start watching files with Webpack: `npm run webpack-dev`
-2. Spin up the node.js backend server: `node server/server.js`
+2. Spin up the node.js backend server: `node server/server-dev.js`
 3. Go to http://localhost:3000
 4. Open homepage.jsx and replace `iconEiffelTower` in `<HeadingItem title="Monuments" icon={iconEiffelTower}/>` (line 21) by `iconNotreDame`
 5. In your terminal, you can see the homepage bundle was re-emitted. Nothing changed for the other ones.
